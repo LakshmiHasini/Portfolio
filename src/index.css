@@ -101,15 +101,16 @@ nav{
 
 /* Style for "I'M" */
 .outline-black {
-  color: white;
+  color: white; /* Makes the inside of the letters see-through */
   /* -webkit-text-stroke: [width] [color] */
   -webkit-text-stroke: 2px black; 
+  font-size: 60px;
 }
 
-/* Style for "SARITA" */
+/* Style for "HASINI" */
 .outline-gold {
   color: transparent; /* Makes the inside of the letters see-through */
-  -webkit-text-stroke: 2px rgb(246, 191, 13); /* Gold color */
+  -webkit-text-stroke: 3px rgb(246, 191, 13); /* Gold color */
   /* If you want a slight glow like the image: */
   text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
 }
@@ -313,7 +314,7 @@ aside{
     gap: 20px;
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: -10px;
+    margin-right: 20px;
 }
 .images-1{
     margin-bottom: 40px;
@@ -486,4 +487,7 @@ figcaption{
     align-items: center;
     gap: 10px;
     padding: 8px;
+}
+.fig-2 a{
+    text-decoration: none;
 }
