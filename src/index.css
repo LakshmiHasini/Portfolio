@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     margin-right: 10px;
+    margin-left: 10px;
     /* background: linear-gradient(to left top, rgb(246, 191, 13), rgb(73, 109, 60)); */
 }
 header{
